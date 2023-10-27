@@ -12,7 +12,11 @@ terraform {
   }
 }
 
-provider "aws" {}
+provider "aws" {
+  region     = "us-east-1"
+  access_key = "AKIAWFFAHC274HBQCO2B"
+  secret_key = "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"
+}
 
 provider "random" {
   # Configuration options
